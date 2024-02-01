@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom In Zoom Out Animation</title>
+    <style>
+        @keyframes zoomInOut {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .zoom-box {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: zoomInOut 3s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="zoom-box">
+        <p>Zoom In Zoom Out</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Hover and Focus Effect</title>
+    <style>
+        body {
+            background-color: rgb(87, 52, 103); 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            display: inline-block;
+            transition: transform 0.3s ease-in-out; 
+        }
+
+        nav a:hover,
+        nav a:focus {
+            transform: translateY(-5px); 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <i><center>
+    <h1>Custom Hover and Focus Effect</h1>
+    </center></i>
+</body>
+</html>
