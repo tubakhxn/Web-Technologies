@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px; /
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #422020;
+      color: #fff;
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      background-color: #555;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #1f1717;
+      text-decoration: none;
+      padding: 8px;
+    }
+
+    section {
+      margin-top: 60px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      body {
+        padding: 0; 
+      }
+
+      section {
+        margin-top: 20px;
+      }
+
+      aside {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tuba Khan</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <section>
+    <h2>Main Content</h2>
+    <img src="C:\Users\Tuba Khan\OneDrive\Desktop\Lab codes\Web tech\EXPT 4\Clouds.jpg" alt="Example Image">
+    <p>Random Information.</p>
+  </section>
+  <aside>
+    <h2>Sidebar</h2>
+    <p>Random Text.</p>
+  </aside>
+</body>
+</html>
